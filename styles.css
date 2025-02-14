@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://preview.redd.it/how-many-of-these-samsung-products-have-you-ever-used-v0-kauk0dn54vsc1.png?width=1080&crop=smart&auto=webp&s=70bc260883d3441d3fefde067e6fdc10ef5d3daa') no-repeat center center/cover;
+    color: rgb(215, 22, 22);
+    padding: 100px 20px;
+}
+
+.btn {
+    background: #007aff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.products {
+    padding: 50px 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+footer {
+    background: #000;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
