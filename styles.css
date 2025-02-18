@@ -1,4 +1,5 @@
 body {
+    /* Setting the default font and removing margins/padding */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,37 +7,43 @@ body {
 }
 
 header {
+    /* Creating a flexbox header with space between elements */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #000;
-    color: #fff;
+    background: #000; /* Black background for the header */
+    color: #fff; /* White text color */
 }
 
 .logo {
+    /* Styling the logo with a larger font */
     font-size: 24px;
     font-weight: bold;
 }
 
 nav ul {
+    /* Removing default list styles and spacing items */
     list-style: none;
     display: flex;
     gap: 15px;
 }
 
 nav a {
+    /* Styling navigation links */
     color: #fff;
     text-decoration: none;
 }
 
 .hero {
+    /* Adding a background image to the hero section */
     background: url('https://preview.redd.it/how-many-of-these-samsung-products-have-you-ever-used-v0-kauk0dn54vsc1.png?width=1080&crop=smart&auto=webp&s=70bc260883d3441d3fefde067e6fdc10ef5d3daa') no-repeat center center/cover;
-    color: rgb(215, 22, 22);
-    padding: 100px 20px;
+    color: rgb(215, 22, 22); /* Red text color */
+    padding: 100px 20px; /* Adding space around the content */
 }
 
 .btn {
+    /* Styling the button with a blue background */
     background: #007aff;
     color: white;
     padding: 10px 20px;
@@ -46,23 +53,27 @@ nav a {
 }
 
 .products {
+    /* Adding padding to the products section */
     padding: 50px 20px;
 }
 
 .product-grid {
+    /* Displaying product cards in a flexbox layout */
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
 .product-card {
-    background: #f4f4f4;
+    /* Styling individual product cards */
+    background: #f4f4f4; /* Light gray background */
     padding: 20px;
-    border-radius: 10px;
-    width: 250px;
+    border-radius: 10px; /* Rounded corners */
+    width: 250px; /* Fixed width for product cards */
 }
 
 footer {
+    /* Styling the footer with a black background */
     background: #000;
     color: white;
     padding: 10px;
